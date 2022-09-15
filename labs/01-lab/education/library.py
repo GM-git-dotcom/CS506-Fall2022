@@ -30,19 +30,16 @@ class Book(Library):
         print()
         return combined_str
 
-
-#mugar = Library("Mugar", "650 Comm Ave", 5)
-b1 = Book("The Da Vinci Code", "Dan Brown", 450, 2, "Mugar", "650 Comm Ave", 5)
-b2 = Book("A room on the roof", "Ruskin Bond", 300, 2, "Mugar", "650 Comm Ave", 5)
-
-
-print(b1)
-print(b2)
     
 
     
 
 
 def draw_library():
-    print("library not found")
+    b1 = Book("The Da Vinci Code", "Dan Brown", 450, 2, "Mugar", "650 Comm Ave", 5)
+    b2 = Book("A room on the roof", "Ruskin Bond", 300, 2, "Mugar", "650 Comm Ave", 5)
+
+
+    print(b1)
+    print(b2)
     return
