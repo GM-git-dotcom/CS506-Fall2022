@@ -12,7 +12,6 @@ def read_csv(csv_file_path):
         for i in range(len(row)):
             if type(int(row[i])) == int:
                 row[i] = int(row[i])
-            else:
         res.append(row)
                 
 
